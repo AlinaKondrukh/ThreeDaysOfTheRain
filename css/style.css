@@ -82,7 +82,7 @@
         
     }
     .z {
-        font-size: 1.5em !important;
+        font-size: 1.3em !important; margin: 10px !important;
     }
     .mesto, .a-date {
         align-items: center !important;
@@ -111,6 +111,13 @@
     }
     .logoSocVK {
         width: 40px !important;
+    }
+    .a-date, .mesto {
+        font-size: 0.8em !important;
+    }
+    .carousel-item > video {
+        max-width: 250px !important;
+        max-height: 250px !important;
     }
     
 }
@@ -201,6 +208,9 @@ body {
 }
 .release > img:hover {
     opacity: 50%;
+}
+.navbar-collapse {
+    z-index: 999 !important;
 }
 .logoSoc {
     height: 50px;
